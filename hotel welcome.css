@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Courier New;
+}
+h1 {
+    text-align: center;
+    color: #649bde;
+    font-weight: 600;
+    margin-top: 160px;
+    font-size: 60px;
+}
+a {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+    color: #94bce0;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 30px;
+    border: 3px dashed #94bce0;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        margin-top: 100px;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    a {
+        padding: 10px 20px;
+        top: 70%;
+    }
+}
